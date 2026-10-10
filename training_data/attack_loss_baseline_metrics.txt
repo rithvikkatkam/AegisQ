@@ -1,0 +1,19 @@
+AegisQ Attack-Loss Baseline
+
+Rows: 100
+Train rows: 80
+Test rows: 20
+Split: chronological 80/20
+
+Target: log1p(loss_inr)
+
+MAE (log space): 2.236830
+RMSE (log space): 2.897473
+R2 (log space): -0.461874
+MAE (INR, back-transformed): 24,801,605,617.83
+
+Caution:
+The 100 monetary outcomes are not independently verified here, and some may
+represent penalties, settlements, estimates or other impacts rather than
+actual organizational loss. Treat these metrics as a baseline experiment,
+not final evidence for the hackathon.

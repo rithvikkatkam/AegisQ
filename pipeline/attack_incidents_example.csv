@@ -1,0 +1,2 @@
+id,company_name,attack_on,target_type,loss_inr,attack_type,threat_actor,incident_date,asset_id,vulnerability_id,description,source
+INC-0001,Example Bank,Customer Portal,Unknown,12500000,Ransomware,Unknown Group,2026-04-12,AST-014,VULN-0031,Example only - replace with a verified incident record,public-report

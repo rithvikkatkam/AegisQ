@@ -1,0 +1,101 @@
+incident_date,date_precision,target_type,attack_category,actor_type,asset_id,vulnerability_id,loss_inr,loss_log1p_inr
+2016-01-01,year,Database,Network Intrusion,Cybercriminal Group,AST-008,VULN-041,1826000000,21.325393619666833
+2020-01-01,year,Web Application,Credential Attack,Unknown,AST-002,VULN-012,12342000000,23.23627391692631
+2020-01-01,year,Cloud,Misconfiguration / Exposure,Non-adversarial,AST-005,VULN-029,145500000,18.795686651448673
+2013-10-01,month,Web Application,Supply Chain,Unknown,AST-002,VULN-009,126160000000,25.56081677960912
+2019-10-01,month,Cloud,Misconfiguration / Exposure,Non-adversarial,AST-005,VULN-031,6225000000,22.551839279457823
+2017-01-01,year,Endpoint,Physical Security,Physical / Logistics,AST-004,VULN-019,3320000000,21.923230620176014
+2018-01-01,year,Web Application,Other,Cybercriminal Group,AST-002,VULN-015,62250000,17.94666910937335
+2013-01-01,year,Hardware / Physical,Physical Security,Non-adversarial,AST-007,VULN-044,286000000,19.47150237228063
+2019-12-01,month,Web Application,Web Exploitation,Non-adversarial,AST-002,VULN-011,265600000000,26.305257254552455
+2018-08-01,month,Web Application,Credential Attack,Unknown,AST-002,VULN-012,16600000,16.624913313567735
+2019-01-01,year,Web Application,Web Exploitation,Non-adversarial,AST-002,VULN-014,83000000,18.234351177809064
+2005-01-01,year,Hardware / Physical,Physical Security,Physical / Logistics,AST-007,VULN-043,166000000,18.927498352344912
+2021-01-01,year,Web Application,Other,Unknown,AST-002,VULN-013,249000000,19.332963458445047
+2020-10-01,month,Cloud,Web Exploitation,Cybercriminal Group,AST-005,VULN-030,38180000000,24.365577655270204
+2021-01-01,year,Database,Malware / Extortion,Cybercriminal Group,AST-008,VULN-041,129480000,18.67903699474552
+2015-02-01,month,Database,Credential Attack,Nation-State / APT,AST-008,VULN-039,66400000000,24.918962893443858
+2004-06-01,month,Database,Insider Threat,Insider,AST-008,VULN-040,76360000000,25.058724835817053
+2006-08-01,month,Web Application,Misconfiguration / Exposure,Non-adversarial,AST-002,VULN-017,16600000000,23.53266853236915
+2014-04-01,month,Identity,Credential Attack,Unknown,AST-006,VULN-033,1992000000,21.412404996610825
+2021-01-01,year,Web Application,Other,Non-adversarial,AST-002,VULN-013,10264802560,23.051986653038465
+2021-01-01,year,Web Application,Web Exploitation,Security Researcher,AST-002,VULN-011,228250000,19.245952081820512
+2021-01-01,year,Web Application,Web Exploitation,Non-adversarial,AST-002,VULN-013,75530000,18.140040499529402
+2015-07-01,month,Database,Network Intrusion,Cybercriminal Group,AST-008,VULN-042,26560000000,24.002672161592294
+2008-01-01,year,Endpoint,Physical Security,Physical / Logistics,AST-004,VULN-020,93790000,18.356568809147237
+2010-06-01,month,Web Application,Other,Security Researcher,AST-002,VULN-011,94620000,18.365379438735864
+2021-10-01,month,Web Application,Malware / Extortion,Cybercriminal Group,AST-002,VULN-010,415000000,19.843789080604612
+2008-02-01,month,Database,Network Intrusion,Unknown,AST-008,VULN-041,14940000000,23.427308016718015
+2015-03-01,month,Endpoint,Misconfiguration / Exposure,Non-adversarial,AST-004,VULN-022,41500000,17.541204009297314
+2019-06-01,month,Identity,Credential Attack,Nation-State / APT,AST-006,VULN-034,2490000000,21.635548547824634
+2005-01-01,year,Web Application,Credential Attack,Unknown,AST-002,VULN-012,103750000,18.457494726713637
+2009-12-01,month,Endpoint,Physical Security,Physical / Logistics,AST-004,VULN-019,1012600000,20.73578711848764
+2015-01-01,year,Web Application,Web Exploitation,Cybercriminal Group,AST-002,VULN-010,207500000,19.150641902454304
+2008-05-01,month,Hardware / Physical,Physical Security,Physical / Logistics,AST-007,VULN-043,10375000000,23.062664903159558
+2005-02-01,month,Hardware / Physical,Physical Security,Physical / Logistics,AST-007,VULN-043,996000000,20.71925781655289
+2012-09-01,month,Endpoint,Other,Cybercriminal Group,AST-004,VULN-021,522900000,20.074900801070772
+2017-05-01,month,Web Application,Other,Unknown,AST-002,VULN-010,1577000000,21.17879014556143
+2018-01-01,year,Database,Web Exploitation,Unknown,AST-008,VULN-041,83000000,18.234351177809064
+2014-07-01,month,Database,Insider Threat,Insider,AST-008,VULN-040,29083200000,24.09342652485749
+2010-03-01,month,Database,Web Exploitation,Cybercriminal Group,AST-008,VULN-041,1909000000,21.369845382213857
+2011-06-01,month,Web Application,Web Exploitation,Cybercriminal Group,AST-002,VULN-010,166000000,18.927498352344912
+2018-12-01,month,Web Application,Misconfiguration / Exposure,Non-adversarial,AST-002,VULN-014,41500000,17.541204009297314
+2020-01-01,year,Web Application,Network Intrusion,Unknown,AST-002,VULN-010,415000000,19.843789080604612
+2018-12-01,month,Database,Other,Unknown,AST-008,VULN-041,6335584220,22.569447867619733
+2012-08-01,month,Identity,Network Intrusion,Unknown,AST-006,VULN-033,11620000000,23.175993588456233
+2009-10-01,month,Hardware / Physical,Physical Security,Physical / Logistics,AST-007,VULN-044,849263470,20.559880027110545
+2018-05-01,month,Web Application,Credential Attack,Cybercriminal Group,AST-002,VULN-011,74700000,18.128990663489926
+2018-08-01,month,Web Application,Web Exploitation,Cybercriminal Group,AST-002,VULN-010,4150000000,22.146374171429983
+2015-03-01,month,Web Application,Credential Attack,Unknown,AST-002,VULN-012,41500000,17.541204009297314
+2019-07-01,month,Database,Web Exploitation,Cybercriminal Group,AST-008,VULN-041,4150000000,22.146374171429983
+2012-03-01,month,Hardware / Physical,Physical Security,Physical / Logistics,AST-007,VULN-043,664000000,20.313792708946732
+2019-05-01,month,Database,Network Intrusion,Cybercriminal Group,AST-008,VULN-041,11620000000,23.175993588456233
+2020-11-01,month,Network,Malware / Extortion,Cybercriminal Group,AST-003,VULN-016,290500000,19.48711413769858
+2019-03-01,month,Cloud,Network Intrusion,Unknown,AST-005,VULN-028,87980000000,25.20037535287835
+2005-05-01,month,Database,Malware / Extortion,Cybercriminal Group,AST-008,VULN-041,33200000000,24.225815712898974
+2018-03-01,month,Database,Network Intrusion,Cybercriminal Group,AST-008,VULN-041,7802000000,22.777645948159048
+2015-05-01,month,Identity,Credential Attack,Unknown,AST-006,VULN-033,913000000,20.632246439654534
+2016-01-01,year,Database,Network Intrusion,Unknown,AST-008,VULN-041,49800000,17.723525562075203
+2013-01-01,year,Database,Network Intrusion,Unknown,AST-008,VULN-041,91300000,18.3296613565181
+2009-01-01,year,Network,Network Intrusion,Unknown,AST-003,VULN-017,4150000000,22.146374171429983
+2020-01-01,year,Cloud,Misconfiguration / Exposure,Non-adversarial,AST-005,VULN-031,46480000000,24.562287949511582
+2011-12-01,month,Database,Data Theft / Exfiltration,Unknown,AST-008,VULN-041,4980000000,22.328695728183774
+2011-12-01,month,Database,Other,Unknown,AST-008,VULN-041,8300000000,22.839521351869447
+2005-06-01,month,Hardware / Physical,Physical Security,Unknown,AST-007,VULN-043,3237000000,21.897912812199447
+2011-05-01,month,Web Application,Other,Cybercriminal Group,AST-002,VULN-011,298868890,19.515515543550592
+2013-01-01,year,Web Application,Other,Non-adversarial,AST-002,VULN-014,124500000,18.639816281901165
+2007-01-01,year,Hardware / Physical,Physical Security,Physical / Logistics,AST-007,VULN-043,132800000,18.704354802536727
+2020-02-01,month,Cloud,Credential Attack,Unknown,AST-005,VULN-030,415000000,19.843789080604612
+2010-01-01,year,Endpoint,Physical Security,Physical / Logistics,AST-004,VULN-019,87540100,18.28760754348464
+2014-04-01,month,Network,Other,Nation-State / APT,AST-003,VULN-018,3735000000,22.04101365579893
+2016-03-01,month,Database,Web Exploitation,Unknown,AST-008,VULN-041,45650000000,24.544269444009295
+2007-01-01,year,Identity,Insider Threat,Insider,AST-006,VULN-035,830000000,20.536936259959738
+2006-01-01,year,Database,Insider Threat,Insider,AST-008,VULN-040,2158000000,21.492447704245745
+2011-01-01,year,Database,Insider Threat,Insider,AST-008,VULN-040,2075000000,21.453226991111002
+2018-10-01,month,Web Application,Web Exploitation,Unknown,AST-002,VULN-010,62250000,17.94666910937335
+2016-01-01,year,Web Application,Credential Attack,Cybercriminal Group,AST-002,VULN-012,33200000,17.3180604640072
+2013-01-01,year,Endpoint,Physical Security,Physical / Logistics,AST-004,VULN-019,83000000,18.234351177809064
+2015-07-01,month,Web Application,Supply Chain,Cybercriminal Group,AST-002,VULN-010,1660000000,21.230083439917273
+2021-10-01,month,Database,Malware / Extortion,Cybercriminal Group,AST-008,VULN-041,918838220,20.638620626738565
+2007-03-01,month,Database,Insider Threat,Insider,AST-008,VULN-040,7169046150,22.69303844937489
+2008-01-01,year,Network,Network Intrusion,Unknown,AST-003,VULN-016,6640000000,22.616377800585354
+2017-10-01,month,Network,Malware / Extortion,Nation-State / APT,AST-003,VULN-016,8300000000,22.839521351869447
+2021-02-01,month,Cloud,Other,Non-adversarial,AST-005,VULN-031,415000000,19.843789080604612
+2017-09-01,month,Cloud,Other,Unknown,AST-005,VULN-029,830000000,20.536936259959738
+2016-06-01,month,Network,Credential Attack,Nation-State / APT,AST-003,VULN-016,1600000000,21.193269466817146
+2016-02-01,month,Web Application,Supply Chain,Unknown,AST-002,VULN-012,24900000,17.030378401595577
+2019-06-01,month,Database,Insider Threat,Insider,AST-008,VULN-040,8051000000,22.809062144388463
+2014-06-01,month,Web Application,Web Exploitation,Cybercriminal Group,AST-002,VULN-010,498000000,20.026110636996957
+2019-05-01,month,Cloud,Supply Chain,Unknown,AST-005,VULN-030,4067000000,22.12617146411738
+2007-12-01,month,Hardware / Physical,Physical Security,Insider,AST-007,VULN-043,2490000000,21.635548547824634
+2012-07-01,month,Identity,Credential Attack,Unknown,AST-006,VULN-032,56977847470,24.765928388380882
+2013-05-01,month,Web Application,Other,Unknown,AST-002,VULN-010,830000000,20.536936259959738
+2005-03-01,month,Network,Network Intrusion,Cybercriminal Group,AST-003,VULN-016,1162000000,20.873408496236717
+2018-12-01,month,Database,Network Intrusion,Cybercriminal Group,AST-008,VULN-041,134460000000,25.62453259399474
+2013-01-01,year,Web Application,Web Exploitation,Unknown,AST-002,VULN-010,830000000,20.536936259959738
+2020-05-01,month,Web Application,Other,Nation-State / APT,AST-002,VULN-010,7470000000,22.734160836225005
+2014-05-01,month,Identity,Credential Attack,Cybercriminal Group,AST-006,VULN-033,120350000000,25.5136700011838
+2019-02-01,month,Endpoint,Malware / Extortion,Cybercriminal Group,AST-004,VULN-021,1660000000,21.230083439917273
+2010-03-01,month,Hardware / Physical,Physical Security,Physical / Logistics,AST-007,VULN-044,2739000000,21.730858727592448
+2011-03-01,month,Endpoint,Physical Security,Physical / Logistics,AST-004,VULN-019,426893900,19.872046064907934
+2019-09-01,month,Cloud,Misconfiguration / Exposure,Non-adversarial,AST-005,VULN-031,89640000000,25.219067485890292

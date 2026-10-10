@@ -1,0 +1,23 @@
+AegisQ Attack Intelligence Training Dataset
+
+Rows: 100
+
+Files:
+- attack_incidents_cleaned.csv = cleaned/normalized source dataset.
+- attack_loss_training_data.csv = structured ML dataset.
+- attack_loss_baseline_model.joblib = baseline trained loss model.
+- attack_loss_baseline_metrics.txt = honest holdout metrics.
+
+Preferred ML target:
+- loss_log1p_inr = log(1 + loss_inr).
+
+Important:
+- The monetary values are preserved from the user-supplied dataset.
+- loss_confidence remains 'unverified' until each monetary figure is checked
+  against its source and classified as actual loss, estimate, settlement,
+  penalty, remediation, etc.
+- training_eligible remains 'review_required' for the same reason.
+- company_name, incident_id, source and free-text description are not model
+  features to avoid memorization/leakage.
+- asset_id and vulnerability_id are preserved as supplied but should be
+  validated against the AegisQ database before joining.

@@ -1,0 +1,4 @@
+incident_id,company_name,attack_on,asset_type,loss_inr,attack_type,threat_actor,incident_date,asset_id,vulnerability_id,description,source
+INC-0001,,,,,,,,,,,
+INC-0002,,,,,,,,,,,
+INC-0003,,,,,,,,,,,

@@ -1,0 +1,53 @@
+{
+  // Press F5 (or the Run button) and pick a configuration.
+  // The FIRST entry is the default: it sets everything up and starts backend + ML + frontend.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "AegisQ: Run Everything",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "AegisQ: Retrain ML models",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run.py",
+      "args": ["--retrain", "--setup-only"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Backend only (FastAPI, debug)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["main:app", "--host", "127.0.0.1", "--port", "8000", "--reload", "--reload-exclude", "venv/*"],
+      "cwd": "${workspaceFolder}/backend",
+      "python": "${workspaceFolder}/backend/venv/bin/python",
+      "windows": {
+        "python": "${workspaceFolder}\\backend\\venv\\Scripts\\python.exe"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Frontend only (Vite)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}/frontend"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Backend + Frontend (debug both)",
+      "configurations": ["Backend only (FastAPI, debug)", "Frontend only (Vite)"],
+      "stopAll": true
+    }
+  ]
+}
